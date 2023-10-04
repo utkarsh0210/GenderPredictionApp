@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <br><br>
+    <h3 class="display-8">Gender Predictions Application</h3>
+    <br><br>
+    <h4 class="display-8">How Gender Prediction Works</h4>
+    <p>
+        Face Detection: Our model first locates and isolates the face within an image or video frame. This step is essential to focus on the region containing the facial features.
+        <br><br>
+        Feature Extraction: Next, the model extracts crucial facial features, such as the shape and size of the eyes, nose, lips, and jawline. These features are then analyzed to identify gender-specific patterns.
+        <br><br>
+        Machine Learning: The extracted features are fed into a machine learning algorithm that has been trained on a dataset with labeled gender information. This training allows the model to learn patterns and correlations between facial characteristics and gender.
+        <br><br>
+        Gender Prediction: Based on its analysis and learning from the dataset, the model makes a prediction about the person's gender.
+        <br><br>
+    </p>
+    <img src="/static/images/002.PNG" class="image-fluid" width="600" alt="">
+
+    <a class="btn btn-outline-primary" href="/app/gender/">Gender App</a>
+
+</div>
+
+{% endblock %}
