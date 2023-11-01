@@ -63,7 +63,6 @@ opencv-contrib-python==4.7.0.72
 opencv-python==4.7.0.68
 packaging==23.1
 Panda3D==1.10.13
-panda3d-gltf==0.15.0
 panda3d-simplepbr==0.10
 pandas==2.0.1
 pefile==2023.2.7
