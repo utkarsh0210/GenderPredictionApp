@@ -97,7 +97,6 @@ pyttsx3==2.90
 pytube==15.0.0
 pytweening==1.0.7
 pytz==2023.3
-pywhatkit==5.4
 pywin32==305
 pywin32-ctypes==0.2.2
 PyYAML==6.0
