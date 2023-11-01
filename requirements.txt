@@ -90,7 +90,7 @@ pypng==0.20220715.0
 PyRect==0.2.0
 pyscreenshot==3.1
 PyScreeze==0.1.29
-PySocks==1.7.1
+
 pywin32==305
 pywin32-ctypes==0.2.2
 PyYAML==6.0
